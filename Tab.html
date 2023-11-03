@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--<meta charset="UTF-8">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Климат Канады в условиях глобального потепления</title>
+</head>
+<body>
+    <p><a href="General.html">Главные города Канады</a></p>
+    <p><a href="Tab.html">Список главных городов Канады</a></p>
+    <hr>
+    <details>
+        <summary>График</summary>
+        <form>
+            <ol>
+                <li>
+                    Значение по оси ОХ<br>
+                    <label><input type=radio name=quest_2 value=2_1> город</label><br>
+                    <label><input type=radio name=quest_2 value=2_2> год</label><br>
+                    <label><input type=radio name=quest_2 value=2_3> месяц</label>
+                </li>
+                <li>
+                    Результат<br>
+                    <label><input type=checkbox name=quest_1 value=1_1> максимальная температура</label><br>
+                    <label><input type=checkbox name=quest_1 value=1_2> минимальная температура</label><br>
+                    <label><input type=checkbox name=quest_1 value=1_3> количество осадков</label>
+                </li>
+            </ol>
+            <p><input type=submit value=Построить></p>
+        </form>
+    </details>
+
+    <details>
+        <summary>Фильтр</summary>
+        <ol>
+            <li>Название города<input type=text name=quest_3 min=0 max=450></li>
+            <li>Тип климата<input type=text name=quest_3 min=0 max=450></li>
+            <li>Часть страны<input type=text name=quest_3 min=0 max=450></li>
+            <li>Год от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+            <li>Месяц от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+            <li>Средняя температура зимой от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+            <li>Средняя температура весной от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+            <li>Средняя температура летом от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+            <li>Средняя температура осенью от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+            <li>Осадки от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+        </ol>
+        <p><input type=submit value=Найти></p>
+    </details>
+
+    <details>
+        <summary>Сортировка</summary>
+        <ol>
+            <li>Первый уровень<select name="Sort"> <option value="0"> Нет </option> <option value="1" selected> По возрастанию </option> <option value="2"> По ключевым точкам </option> </select> по убыванию?<input type="checkbox" name="var" value="0"></li>
+            <li>Второй уровень<select name="Sort"> <option value="0"> Нет </option> <option value="1" selected> По возрастанию </option> <option value="2"> По ключевым точкам </option> </select> по убыванию?<input type="checkbox" name="var" value="0"></li>
+            <li>Третий уровень<select name="Sort"> <option value="0"> Нет </option> <option value="1" selected> По возрастанию </option> <option value="2"> По ключевым точкам </option> </select> по убыванию?<input type="checkbox" name="var" value="0"></li>
+        </ol>
+    </details>
+</body>
+</html>
