@@ -32,28 +32,32 @@
 
     <details>
         <summary>Фильтр</summary>
+        <form>
         <ol>
             <li>Название города<input type=text name=quest_3 min=0 max=450></li>
             <li>Тип климата<input type=text name=quest_3 min=0 max=450></li>
             <li>Часть страны<input type=text name=quest_3 min=0 max=450></li>
             <li>Год от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
             <li>Месяц от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
-            <li>Средняя температура зимой от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
-            <li>Средняя температура весной от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
-            <li>Средняя температура летом от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
-            <li>Средняя температура осенью от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
-            <li>Осадки от<input type=number name=quest_3 min=0 max=450> до <input type=number name=quest_3 min=0 max=450></li>
+            <li>Средняя температура зимой от<input type=number name=quest_3 min=0 max=100> до <input type=number name=quest_3 min=0 max=100></li>
+            <li>Средняя температура весной от<input type=number name=quest_3 min=0 max=100> до <input type=number name=quest_3 min=0 max=100></li>
+            <li>Средняя температура летом от<input type=number name=quest_3 min=0 max=100> до <input type=number name=quest_3 min=0 max=100></li>
+            <li>Средняя температура осенью от<input type=number name=quest_3 min=0 max=100> до <input type=number name=quest_3 min=0 max=100></li>
+            <li>Осадки от<input type=number name=quest_3 min=0 max=1000> до <input type=number name=quest_3 min=0 max=1000></li>
         </ol>
         <p><input type=submit value=Найти></p>
+            </form>
     </details>
 
     <details>
         <summary>Сортировка</summary>
+        <form>
         <ol>
             <li>Первый уровень<select name="Sort"> <option value="0"> Нет </option> <option value="1" selected> По возрастанию </option> <option value="2"> По ключевым точкам </option> </select> по убыванию?<input type="checkbox" name="var" value="0"></li>
             <li>Второй уровень<select name="Sort"> <option value="0"> Нет </option> <option value="1" selected> По возрастанию </option> <option value="2"> По ключевым точкам </option> </select> по убыванию?<input type="checkbox" name="var" value="0"></li>
             <li>Третий уровень<select name="Sort"> <option value="0"> Нет </option> <option value="1" selected> По возрастанию </option> <option value="2"> По ключевым точкам </option> </select> по убыванию?<input type="checkbox" name="var" value="0"></li>
         </ol>
+            </form>
     </details>
 
     <table border="1">
@@ -195,7 +199,7 @@
             <td> 2000</td>
             <td> Зима</td>
             <td> -5°</td>
-            <td> 25 мм</td>
+            <td> 50 мм</td>
         </tr>
         <tr>
             <td> 14</td>
@@ -205,7 +209,7 @@
             <td> 2000</td>
             <td> Лето</td>
             <td> 19°</td>
-            <td> 47 мм</td>
+            <td> 101 мм</td>
         </tr>
         <tr>
             <td> 15</td>
@@ -215,7 +219,7 @@
             <td> 1930</td>
             <td> Зима</td>
             <td> -3°</td>
-            <td> 25 мм</td>
+            <td> 51 мм</td>
         </tr>
         <tr>
             <td> 16</td>
@@ -225,7 +229,7 @@
             <td> 1930</td>
             <td> Лето</td>
             <td> 20°</td>
-            <td> 47 мм</td>
+            <td> 46 мм</td>
         </tr>
         <tr>
             <td> 17</td>
@@ -235,7 +239,7 @@
             <td> 1960</td>
             <td> Зима</td>
             <td> -5°</td>
-            <td> 25 мм</td>
+            <td> 47 мм</td>
         </tr>
         <tr>
             <td> 18</td>
@@ -245,7 +249,7 @@
             <td> 1960</td>
             <td> Лето</td>
             <td> 19°</td>
-            <td> 47 мм</td>
+            <td> 85 мм</td>
         </tr>
         <tr>
             <td> 19</td>
@@ -255,7 +259,7 @@
             <td> 1880</td>
             <td> Зима</td>
             <td> -7°</td>
-            <td> 35 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 20</td>
@@ -265,7 +269,7 @@
             <td> 1880</td>
             <td> Лето</td>
             <td> 19°</td>
-            <td> 77 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 21</td>
@@ -275,7 +279,7 @@
             <td> 2000</td>
             <td> Зима</td>
             <td> -7°</td>
-            <td> 35 мм</td>
+            <td> 51 мм</td>
         </tr>
         <tr>
             <td> 22</td>
@@ -285,7 +289,7 @@
             <td> 2000</td>
             <td> Лето</td>
             <td> 18°</td>
-            <td> 77 мм</td>
+            <td> 1 мм</td>
         </tr>
         <tr>
             <td> 23</td>
@@ -295,7 +299,7 @@
             <td> 1930</td>
             <td> Зима</td>
             <td> -6°</td>
-            <td> 35 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 24</td>
@@ -305,7 +309,7 @@
             <td> 1930</td>
             <td> Лето</td>
             <td> 20°</td>
-            <td> 77 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 25</td>
@@ -315,7 +319,7 @@
             <td> 1960</td>
             <td> Зима</td>
             <td> 7°</td>
-            <td> 35 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 26</td>
@@ -325,7 +329,7 @@
             <td> 1960</td>
             <td> Лето</td>
             <td> 20°</td>
-            <td> 77 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 27</td>
@@ -335,7 +339,7 @@
             <td> 1880</td>
             <td> Зима</td>
             <td> -9°</td>
-            <td> 40 мм</td>
+            <td> 17 мм</td>
         </tr>
         <tr>
             <td> 28</td>
@@ -345,7 +349,7 @@
             <td> 1880</td>
             <td> Лето</td>
             <td> 15°</td>
-            <td> 50 мм</td>
+            <td> 73 мм</td>
         </tr>
         <tr>
             <td> 29</td>
@@ -355,7 +359,7 @@
             <td> 2000</td>
             <td> Зима</td>
             <td> -8°</td>
-            <td> 40 мм</td>
+            <td> 16 мм</td>
         </tr>
         <tr>
             <td> 30</td>
@@ -365,7 +369,7 @@
             <td> 2000</td>
             <td> Лето</td>
             <td> 14°</td>
-            <td> 50 мм</td>
+            <td> 80 мм</td>
         </tr>
         <tr>
             <td> 31</td>
@@ -375,7 +379,7 @@
             <td> 1930</td>
             <td> Зима</td>
             <td> -8°</td>
-            <td> 40 мм</td>
+            <td> 10 мм</td>
         </tr>
         <tr>
             <td> 32</td>
@@ -385,7 +389,7 @@
             <td> 1930</td>
             <td> Лето</td>
             <td> 15°</td>
-            <td> 50 мм</td>
+            <td> 40 мм</td>
         </tr>
         <tr>
             <td> 33</td>
@@ -395,7 +399,7 @@
             <td> 1960</td>
             <td> Зима</td>
             <td> -7°</td>
-            <td> 40 мм</td>
+            <td> 23 мм</td>
         </tr>
         <tr>
             <td> 34</td>
@@ -405,7 +409,7 @@
             <td> 1960</td>
             <td> Лето</td>
             <td> 15°</td>
-            <td> 50 мм</td>
+            <td> 57 мм</td>
         </tr>
         <tr>
             <td> 35</td>
@@ -415,7 +419,7 @@
             <td> 1880</td>
             <td> Зима</td>
             <td> -7°</td>
-            <td> 385 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 36</td>
@@ -425,7 +429,7 @@
             <td> 1880</td>
             <td> Лето</td>
             <td> 20°</td>
-            <td> 18 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 37</td>
@@ -435,7 +439,7 @@
             <td> 2000</td>
             <td> Зима</td>
             <td> -9°</td>
-            <td> 385 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 38</td>
@@ -445,7 +449,7 @@
             <td> 2000</td>
             <td> Лето</td>
             <td> 18°</td>
-            <td> 18 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 39</td>
@@ -455,7 +459,7 @@
             <td> 1930</td>
             <td> Зима</td>
             <td> -7°</td>
-            <td> 385 мм</td>
+            <td> 74 мм</td>
         </tr>
         <tr>
             <td> 40</td>
@@ -465,7 +469,7 @@
             <td> 1930</td>
             <td> Лето</td>
             <td> 20°</td>
-            <td> 18 мм</td>
+            <td> 83 мм</td>
         </tr>
         <tr>
             <td> 41</td>
@@ -475,7 +479,7 @@
             <td> 1960</td>
             <td> Зима</td>
             <td> -8°</td>
-            <td> 385 мм</td>
+            <td> 71 мм</td>
         </tr>
         <tr>
             <td> 42</td>
@@ -485,7 +489,7 @@
             <td> 1960</td>
             <td> Лето</td>
             <td> 19°</td>
-            <td> 18 мм</td>
+            <td> 70 мм</td>
         </tr>
         <tr>
             <td> 43</td>
@@ -495,7 +499,7 @@
             <td> 1880</td>
             <td> Зима</td>
             <td> -18°</td>
-            <td> 60 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 44</td>
@@ -505,7 +509,7 @@
             <td> 1880</td>
             <td> Лето</td>
             <td> 12°</td>
-            <td> 60 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 45</td>
@@ -515,7 +519,7 @@
             <td> 2000</td>
             <td> Зима</td>
             <td> -12°</td>
-            <td> 60 мм</td>
+            <td> 2 мм</td>
         </tr>
         <tr>
             <td> 46</td>
@@ -525,7 +529,7 @@
             <td> 2000</td>
             <td> Лето</td>
             <td> 14°</td>
-            <td> 60 мм</td>
+            <td> 59 мм</td>
         </tr>
         <tr>
             <td> 47</td>
@@ -535,7 +539,7 @@
             <td> 1930</td>
             <td> Зима</td>
             <td> -12°</td>
-            <td> 60 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 48</td>
@@ -545,7 +549,7 @@
             <td> 1930</td>
             <td> Лето</td>
             <td> 16°</td>
-            <td> 60 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 49</td>
@@ -555,7 +559,7 @@
             <td> 1960</td>
             <td> Зима</td>
             <td> -11°</td>
-            <td> 60 мм</td>
+            <td> - мм</td>
         </tr>
         <tr>
             <td> 50</td>
@@ -565,7 +569,7 @@
             <td> 1960</td>
             <td> Лето</td>
             <td> 16°</td>
-            <td> 60 мм</td>
+            <td> - мм</td>
         </tr>
     </table>
 </body>
